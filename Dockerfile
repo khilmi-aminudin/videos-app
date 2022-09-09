@@ -19,6 +19,3 @@ COPY --from=builder /app/videos-app /app/videos-app
 EXPOSE 8080
 
 CMD ["./videos-app", "--port=8080", "--host=0.0.0.0"]
-
-
-
